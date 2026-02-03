@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+}
+
+/* container */
+.calculadora {
+  width: 260px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+/* visor */
+.display {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 8px;
+  font-size: 20px;
+  text-align: right;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+/* botões */
+.botoes {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+}
+
+button {
+  height: 40px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  background: #f2f2f2;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #e6e6e6;
+}
+
+button:active {
+  background: #dcdcdc;
+}
+
+/* operadores */
+.operador {
+  background: #eaeaea;
+}
+
+/* botão igual */
+.igual {
+  background: #d9d9d9;
+  font-weight: bold;
+}
